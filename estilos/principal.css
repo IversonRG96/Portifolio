@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+
+#menuHamb {
+    height: 4vh;
+    display: grid;
+    place-items: center center;
+}
+
+#menu {
+    padding: 10px;
+    display: none;
+    text-align: center;
+
+}
+
+nav {
+    padding: 2px;
+}
+
+nav:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    margin: 10px;
+}
+
+.mural {
+    height: 650px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.imgiverson {
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+
+.mural>div {
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.sobremim,
+.projetos {
+    text-align: center;
+}
+
+.imgiverson2 {
+    display: none;
+}
+
+.sobremim>p {
+    text-align: justify;
+    padding: 5px;
+}
+
+.cxprojetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items:flex-end;
+}
+
+.cxprojetos>div>p{
+    width: 175px;
+    padding: 10px;
+}
+
+.imgs {
+    width: 175px;
+    height: 175px;
+    padding: 10px;
+}
+
