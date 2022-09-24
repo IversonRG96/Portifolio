@@ -7,6 +7,8 @@
     text-decoration: none;
 }
 
+/****************  Cabeçalho  ********************/
+
 header {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -15,7 +17,7 @@ header {
 }
 
 #menuHamb {
-    height: 4vh;
+    height: 45px;
     display: grid;
     place-items: center center;
 }
@@ -24,7 +26,6 @@ header {
     padding: 10px;
     display: none;
     text-align: center;
-
 }
 
 nav {
@@ -40,6 +41,8 @@ main {
     margin: 10px;
 }
 
+/****************  Mural  ********************/
+
 .mural {
     height: 650px;
     display: grid;
@@ -52,45 +55,87 @@ main {
     width: 300px;
     height: 350px;
     border-radius: 50%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+    box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.17);
 }
 
 .mural>div {
     display: grid;
     justify-items: center;
     margin-top: 30px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16);
 }
+
+/*************  Sobre Mim + Projetos ***************/
 
 .sobremim,
 .projetos {
     text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.17);
+    border-radius: 5px 5px;
+}
+
+.sobremim>h2, .projetos>h2 {
+    padding: 20px 0px 20px 0px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.13);
+}
+
+/****************  Sobre Mim  ********************/
+
+.sobremimtexto>p {
+    text-align: justify;
+    padding: 0px 30px 30px 30px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.13);
 }
 
 .imgiverson2 {
     display: none;
 }
-
-.sobremim>p {
-    text-align: justify;
-    padding: 5px;
-}
+/****************  Projetos  ********************/
 
 .cxprojetos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: space-between;
     align-items:flex-end;
 }
 
 .cxprojetos>div>p{
-    width: 175px;
-    padding: 10px;
+    font-weight: bolder;
+    padding: 10px 0px 5px 0px;
 }
 
 .imgs {
-    width: 175px;
-    height: 175px;
+    width: 225px;
+    height: 225px;
     padding: 10px;
 }
 
+/****************  Contato  ********************/
+
+.cxcontato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items:flex-end;
+    
+}
+
+.icones {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+/****************  Rodapé  ********************/
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
