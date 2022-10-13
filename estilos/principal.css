@@ -17,7 +17,7 @@ header {
 }
 
 #menuHamb {
-    height: 45px;
+    height: 30px;
     display: grid;
     place-items: center center;
 }
@@ -29,13 +29,21 @@ header {
 }
 
 nav {
-    padding: 2px;
+    padding: 3px;
 }
 
-nav:hover {
-    background-color: white;
-    color: black;
+nav > a {
+    padding: 2px 14px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px 5px;
 }
+
+nav> a:hover {
+    background-color: rgba(255, 255, 255, 0.161);
+}
+
+/**************** Main *********************/
 
 main {
     margin: 10px;
@@ -156,6 +164,7 @@ main {
     border: 3px solid white;
     transition: border 0.40s;
 }
+
 /****************  Rodapé  ********************/
 
 footer {

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) and (max-width:1365px) {
+   
+#menuHamb {
+    display:none;
+} 
+
+#menu {
+    display: flex;
+}
+
+main {
+    width: 760px;
+    margin: auto;
+}
+
+.mural {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.imgiverson {
+    margin-right: 25px;
+}
+
+.sobremim {
+    display:flex ;
+    align-items: center;
+}
+
+.sobremim>h2{
+    margin: 0px 25px;
+    padding: 0px;
+}
+
+.sobremimtexto {
+    margin: 10px 20px 10px 0px;
+}
+
+.sobremimtexto>p{
+    padding: 10px 0px;
+}
+
+.bigcxprojetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgs {
+    width: 165px;
+    height: 165px;
+}
+
+.contato {
+    width: 760px;
+    margin: auto;
+}
+
+}
