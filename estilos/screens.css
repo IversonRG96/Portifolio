@@ -25,7 +25,7 @@ main {
 }
 
 .imgiverson {
-    margin-right: 25px;
+    margin-right: 10px;
 }
 
 .sobremim {
@@ -55,11 +55,6 @@ main {
 .imgs {
     width: 165px;
     height: 165px;
-}
-
-.contato {
-    width: 760px;
-    margin: auto;
 }
 
 }
