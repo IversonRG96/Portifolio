@@ -10,6 +10,7 @@
 /****************  Cabeçalho  ********************/
 
 header {
+    min-width: 300px;
     background-color: rgb(0, 0, 0);
     color: white;
     display: grid;
@@ -47,11 +48,14 @@ nav> a:hover {
 
 main {
     margin: 10px;
+    max-width: 768px;
+    margin: auto;
 }
 
 /****************  Mural  ********************/
 
 .mural {
+    min-width: 300px;
     height: 650px;
     display: grid;
     align-content: center;
@@ -89,6 +93,9 @@ main {
 
 .sobremim,
 .projetos {
+    min-width: 300px;
+    max-width: 768px;
+    margin: auto;
     text-align: center;
     margin-bottom: 20px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
@@ -129,32 +136,28 @@ main {
 }
 
 .imgs {
-    width: 225px;
-    height: 225px;
+    width: 134px;
+    height: 134px;
     margin: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.607);
     border-radius: 5px;
 }
 
 /****************  Contato  ********************/
-
-.cxcontato {
-    position: relative;  
+#contatos{
+    min-width: 300px;    
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 768px;    
+    height: 120px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
     align-items:center;
-    background-color: rgba(0, 0, 0, 0.03);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    height: 120px;
-    
 }
-
 .icones {
-    position: absolute;
-    top: 25%;
-    left:50%;
     width: 60px;
     height: 60px;
     border-radius:50%;
@@ -164,25 +167,12 @@ main {
     transition: border 0.20s;
 }
 
-#iL,#iG,#iE,#iW {top:20%;transition: 0.5s;}
-#iL {left:16%;}
-#iG {left:36%;}
-#iE {left:56%;}
-#iW {left:76%;}
-
 .icones:hover{
     border: 3px solid white;
     transition: border 0.40s;
 }
 
 #iL:hover,#iG:hover,#iE:hover,#iW:hover { top:10%; transition: top 0.5s;}
-
-.icontext{position: absolute;}
-
-#itxtL {top:67%; left:14%; transition: 0.5s;}
-#itxtG {top:67%; left:33.5%; transition: 0.5s;}
-#itxtE {top:67%; left:48%; transition: 0.5s;}
-#itxtW {top:67%; left:70%; transition: 0.5s;}
 
 .cxcontato>p{
     display:none;
@@ -192,6 +182,7 @@ main {
 /****************  Rodapé  ********************/
 
 footer {
+    min-width: 300px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.03);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width:768px) and (max-width:1365px) {
+@media screen and (min-width:769px) and (max-width:1365px) {
    
 #menuHamb {
     display:none;
@@ -9,11 +9,6 @@
 
 #menu {
     display: flex;
-}
-
-main {
-    width: 760px;
-    margin: auto;
 }
 
 .mural {
@@ -34,16 +29,19 @@ main {
 }
 
 .sobremim>h2{
-    margin: 0px 25px;
+    margin: 0px 5px 0px 25px;
     padding: 0px;
 }
 
 .sobremimtexto {
-    margin: 10px 20px 10px 0px;
+    margin: 20px;
 }
 
 .sobremimtexto>p{
-    padding: 10px 0px;
+    padding: 20px 0px;
+}
+.projetos>h2 {
+    padding: 20px 0px 35px 0px;
 }
 
 .bigcxprojetos {
@@ -53,8 +51,74 @@ main {
 }
 
 .imgs {
-    width: 165px;
-    height: 165px;
+    width: 155px;
+    height: 155px;
 }
+
+.icones{
+    width: 70px;
+    height: 70px;
+}
+
+}
+
+@media screen and (min-width:1366px) {
+
+    #menuHamb {
+        display:none;
+    } 
+    
+    #menu {
+        display: flex;
+    }
+    
+    .mural {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+    
+    .imgiverson {
+        margin-right: 10px;
+    }
+    
+    .sobremim {
+        display:flex ;
+        align-items: center;
+    }
+    
+    .sobremim>h2{
+        margin: 0px 5px 0px 25px;
+        padding: 0px;
+    }
+    
+    .sobremimtexto {
+        margin: 20px;
+    }
+    
+    .sobremimtexto>p{
+        padding: 20px 0px;
+    }
+    .projetos>h2 {
+        padding: 20px 0px 35px 0px;
+    }
+    
+    .bigcxprojetos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imgs {
+        width: 185px;
+        height: 185px;
+    }
+
+    .icones{
+        width: 70px;
+        height: 70px;
+    }
 
 }
