@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/**************** MENU ***************/
+
+header {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+#menuHamb {
+    color: white;
+}
+
+.nav_opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_opcoes a {
+    padding: 5px;
+    color: white;
+}
+
+.menu_grande {
+    display: none;
+}
