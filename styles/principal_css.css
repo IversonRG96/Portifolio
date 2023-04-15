@@ -47,24 +47,54 @@ header {
     color: rgb(0, 106, 255);
 }
 
+body {
+    background: black url('../imagens/plano-de-fundo.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
 .menu_grande {
     display: none;
 }
 
 .conteiner_main {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
 }
 
-.section_contatos {
+.section_iverson {
+    margin-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section_foto > img {
+ .section_iverson > .img_foto_iverson {
     padding: 5px;
     width: 160px;
-    border-radius: 20px;
+}
+
+.section_iverson .img_tag_iverson {
+    width: 295px;
+    height: 40px;
+}
+
+.section_contatos {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_logo_tags {
+    padding: 2px;
+    width: 260px;
+}
+
+footer {
+    padding: 5px;
+    font-size: 0.75em;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.807);
+    background-color: rgba(0, 0, 0, 0.411);
 }
