@@ -10,7 +10,17 @@ a {
     color: black;
 }
 
-/**************** MENU ***************/
+p , h1 , h2 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.186);
+}
+
+body {
+    min-width: 300px;
+    background: rgba(0, 0, 0, 0.1);
+    background-size: cover;
+}
+
+/********************* MENU *********************/
 
 header {
     padding: 5px;
@@ -25,7 +35,7 @@ header {
 }
 
 #menuHamb:hover {
-    color:rgb(0, 106, 255)
+    color:rgb(124, 123, 123)
 }
 
 #menu {
@@ -47,14 +57,11 @@ header {
     color: rgb(0, 106, 255);
 }
 
-body {
-    background: black url('../imagens/plano-de-fundo.jpg') no-repeat fixed;
-    background-size: cover;
-}
-
 .menu_grande {
     display: none;
 }
+
+/********************* MAIN *********************/
 
 .conteiner_main {
     display: flex;
@@ -62,22 +69,27 @@ body {
     align-items: center;
 }
 
+/**************** FOTO E TITULO *****************/
+
 .section_iverson {
     margin-bottom: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
  .section_iverson > .img_foto_iverson {
-    padding: 5px;
-    width: 160px;
+    width: 175px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.285);
 }
 
-.section_iverson .img_tag_iverson {
-    width: 295px;
-    height: 40px;
+.section_iverson > h1 {
+    margin-top: 8px;
 }
+
+/***************** CONTATOS ********************/
 
 .section_contatos {
     margin-bottom: 15px;
@@ -89,12 +101,40 @@ body {
 .img_logo_tags {
     padding: 2px;
     width: 260px;
+    transition: all 0.2s;
 }
+
+.img_logo_tags:hover {
+    margin-bottom: 1.9px;
+    width: 250px;
+    transition: all 0.2s;
+}
+
+section > .sobre-descricao {
+    padding: 5px 0px 15px 0px;
+    width: 250px;
+    display: none;
+}
+
+section > .sobre-descricao p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.089);
+}
+
+
+
+/****************** LOGOS *********************/
+
+
+
+/***************** FOOTER *********************/
 
 footer {
     padding: 5px;
     font-size: 0.75em;
     text-align: center;
     color:rgba(255, 255, 255, 0.807);
-    background-color: rgba(0, 0, 0, 0.411);
+    background-color: rgba(0, 0, 0, 0.152);
 }
