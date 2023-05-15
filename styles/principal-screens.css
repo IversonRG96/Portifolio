@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media  screen and (min-width:600px) and (max-width:767px) {
+
+    .img_foto_iverson {
+        width: 200px;
+    }
+
+    .img_logo_tags {
+        width: 320px;
+    }
+
+    .img_logo_tags:hover{
+        width: 310px;
+        padding-bottom: 5px;
+    }
+
+    .contatos-logos {
+        width: 310px;
+    }
+
+    .icones-logo{
+        width: 60px;
+    }
+}
+
+@media  screen and (min-width:768px) and (max-width:991px) {
+
+    #menuHamb, #menu {
+        display: none;
+    }
+
+    .conteiner-big-box {
+        display: block;
+    }
+
+    .img_foto_iverson {
+        width: 200px;
+    }
+
+    .img_logo_tags {
+        width: 320px;
+    }
+
+    .img_logo_tags:hover{
+        width: 310px;
+        padding-bottom: 5px;
+    }
+
+    .contatos-logos {
+        display: none;
+    }
+
+    footer {
+        border-radius: 5px 5px 0px 0px;
+    }
+    
+}
+
+@media  screen and (min-width:992px) and (max-width:1199px) {
+    
+}
+
+@media  screen and (min-width:1200px) {
+    
+}

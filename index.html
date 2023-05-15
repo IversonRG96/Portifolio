@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/principal_css.css">
+    <link rel="stylesheet" href="./styles/principal.css">
+    <link rel="stylesheet" href="./styles/principal-screens.css" media="screen and (min-width:600px)">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Iverson R. Gonçalves</title>
 </head>
@@ -14,11 +15,9 @@
         <menu id="menu">
             <nav class="nav_opcoes">
                 <a href="#">Home</a>
-                <a href="#">Sobre</a>
                 <a href="#">Portifólio</a>
                 <a href="#">GitHub</a>
                 <a href="#">LinkedIn</a>
-                <a href="#">E-mail</a>
                 <a href="#">WhatsApp</a>
             </nav>
         </menu>
@@ -30,20 +29,38 @@
             </nav>
         </menu>
     </header>
+    <div class="conteiner-big-box">
+        <div class="big-box-redes">
+            <div class="box-redes">
+                <a href="#"><img src="./imagens/logo-home.jpg" alt="email" class="icones-redes"></a>
+                <a href="#"><img src="./imagens/icon-whats.png" alt="whatsapp" class="icones-redes"></a>
+                <a href="#"><img src="./imagens/logo-github.jpg" alt="github" class="icones-redes"></a>
+                <a href="#"><img src="./imagens/logo-linkedin.jpg" alt="linkedin" class="icones-redes"></a>
+                <a href="#"><img src="./imagens/icon-email.png" alt="email" class="icones-redes"></a>
+            </div>
+        </div>
+    </div>
     <main class="conteiner_main">
         <section class="section_iverson">
             <img src="./imagens/Iverson.jpg" alt="Iverson Foto" class="img_foto_iverson">
             <h1>Iverson R.G.</h1>
         </section>
-        <section class="section_contatos">
+        <section class="section-botoes">
             <img src="./imagens/sobre.png" alt="sobre mim" class="img_logo_tags" id="tag-sobre">
             <div class="sobre-descricao"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore iusto cumque, culpa modi quod perferendis aperiam consectetur consequuntur voluptatum minima, eum numquam magnam ab nihil nisi fuga. Dolorem, quos accusamus?</p></div>
             <a href="#"><img src="./imagens/portifolio.png" alt="portifólio" class="img_logo_tags"></a>
             <a href="#"><img src="./imagens/github.png" alt="github" class="img_logo_tags"></a>
-            <a href="#"><img src="./imagens/linkedin.png" alt="linkedIn" class="img_logo_tags"></a>
-            <a href="#"><img src="./imagens/whatsapp.png" alt="whatsapp" class="img_logo_tags"></a>
         </section>
     </main>
+    <div class="big-box">
+        <div class="box-contatos">
+            <div class="contatos-logos">
+                <a href=""><img src="./imagens/logo-linkedin.jpg" alt="LinkedIn" class="icones-logo"></a>
+                <a href=""><img src="./imagens/icon-whats.png" alt="whatsapp" class="icones-logo"></a>
+                <a href=""><img src="./imagens/icon-email.png" alt="email" class="icones-logo"></a>
+            </div>
+        </div>
+    </div>
     <footer> Site desenvolvido por Iverson R.G. @ Todos os direitos reservados.</footer>
     <script src="./scripts/menuHamb.js"></script>
     <script src="./scripts/principal._script.js"></script>

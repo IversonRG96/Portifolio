@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    transition: all 0.8s;
 }
 
 a {
@@ -61,6 +62,41 @@ header {
     display: none;
 }
 
+/**************** REDES SOCIAIS ****************/
+
+.conteiner-big-box{
+    display: none;
+}
+
+.big-box-redes {
+    margin-top: 15px;
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-redes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.icones-redes {
+    margin-bottom: 5px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.315);
+    transition: all 0.15s;
+    box-sizing: border-box;
+}
+
+.icones-redes:hover {
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.15s;
+    
+}
+
 /********************* MAIN *********************/
 
 .conteiner_main {
@@ -73,13 +109,13 @@ header {
 
 .section_iverson {
     margin-bottom: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
- .section_iverson > .img_foto_iverson {
+.img_foto_iverson {
     width: 175px;
     border-radius: 5px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.285);
@@ -89,9 +125,9 @@ header {
     margin-top: 8px;
 }
 
-/***************** CONTATOS ********************/
+/***************** BOTÕES ********************/
 
-.section_contatos {
+.section-botoes {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
@@ -99,15 +135,19 @@ header {
 }
 
 .img_logo_tags {
-    padding: 2px;
+    padding: 3px;
     width: 260px;
     transition: all 0.2s;
 }
 
 .img_logo_tags:hover {
-    margin-bottom: 1.9px;
-    width: 250px;
+    padding-bottom: 4px ;
+    width: 255px;
     transition: all 0.2s;
+}
+
+#tag-sobre {
+    margin-bottom: 3px;
 }
 
 section > .sobre-descricao {
@@ -123,18 +163,48 @@ section > .sobre-descricao p {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.089);
 }
 
+/****************** ICONES *********************/
 
+.box-contatos {
+    display: flex;
+    justify-content: center;
+    margin: 0px 4px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(0, 0, 0);
+}
 
-/****************** LOGOS *********************/
+.contatos-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    padding: 15px 0px;
+    
+}
+
+.icones-logo {
+    width: 50px;
+    border-radius: 50%;
+    border: 0px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    transition: all 0.1s;
+}
+
+.icones-logo:hover {
+    border: 2px solid rgb(0, 0, 0);
+    transition: all 0.1s;
+}
 
 
 
 /***************** FOOTER *********************/
 
 footer {
-    padding: 5px;
+    margin-top: -1px;
+    padding: 10px 5px;
     font-size: 0.75em;
     text-align: center;
-    color:rgba(255, 255, 255, 0.807);
-    background-color: rgba(0, 0, 0, 0.152);
+    margin: 0px 4px;
+    color:rgba(255, 255, 255, 0.676);
+    background-color: rgb(0, 0, 0);
 }
