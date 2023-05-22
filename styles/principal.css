@@ -150,17 +150,19 @@ header {
     margin-bottom: 3px;
 }
 
-section > .sobre-descricao {
+.sobre-descricao {
+    margin-bottom: 10px;
     padding: 5px 0px 15px 0px;
-    width: 250px;
+    width: 245px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
     display: none;
 }
 
-section > .sobre-descricao p {
-    padding: 10px;
+.sobre-descricao p {
+    padding: 5px 15px;
     text-align: justify;
     text-indent: 20px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.089);
 }
 
 /****************** ICONES *********************/
