@@ -13,6 +13,7 @@ a {
 
 p , h1 , h2 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.186);
+    text-align: center;
 }
 
 body {
@@ -62,7 +63,7 @@ header {
     display: none;
 }
 
-/**************** REDES SOCIAIS ****************/
+/************* REDES SOCIAIS RIGHT ***************/
 
 .conteiner-big-box{
     display: none;
@@ -97,6 +98,13 @@ header {
     
 }
 
+/**************** TITULO PRINCIPAL ***************/
+
+.titulo-nome {
+    display: none;
+    text-align: center; 
+}
+
 /********************* MAIN *********************/
 
 .conteiner_main {
@@ -105,7 +113,6 @@ header {
     align-items: center;
 }
 
-/**************** FOTO E TITULO *****************/
 
 .section_iverson {
     margin-bottom: 15px;
@@ -113,6 +120,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 280px;
 }
 
 .img_foto_iverson {
@@ -125,10 +133,8 @@ header {
     margin-top: 8px;
 }
 
-/***************** BOTÕES ********************/
-
 .section-botoes {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,36 +142,53 @@ header {
 
 .img_logo_tags {
     padding: 3px;
-    width: 260px;
+    width: 285px;
     transition: all 0.2s;
 }
 
 .img_logo_tags:hover {
     padding-bottom: 4px ;
-    width: 255px;
+    width: 280px;
     transition: all 0.2s;
 }
 
-#tag-sobre {
-    margin-bottom: 3px;
+#tag-sobre2{
+    display: none;
 }
 
 .sobre-descricao {
     margin-bottom: 10px;
     padding: 5px 0px 15px 0px;
-    width: 245px;
+    width: 270px;
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
     display: none;
 }
 
 .sobre-descricao p {
-    padding: 5px 15px;
+    padding: 10px 15px;
     text-align: justify;
     text-indent: 20px;
 }
 
-/****************** ICONES *********************/
+.box-skill-level {
+    display: none;
+    width: 270px; 
+}
+
+.skill-level {
+    display:flex;
+    justify-content: space-around;
+    margin: 5px 0px;
+}
+
+.img-skill {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 40px;
+}
+
+/****************** RODAPÉ *********************/
 
 .box-contatos {
     display: flex;
@@ -196,10 +219,6 @@ header {
     border: 2px solid rgb(0, 0, 0);
     transition: all 0.1s;
 }
-
-
-
-/***************** FOOTER *********************/
 
 footer {
     margin-top: -1px;

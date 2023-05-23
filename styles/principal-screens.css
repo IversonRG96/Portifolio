@@ -2,6 +2,12 @@
 
 @media  screen and (min-width:600px) and (max-width:767px) {
 
+/********************** MAIN ********************/
+
+    .section_iverson {
+        width: 450px;
+    }
+
     .img_foto_iverson {
         width: 250px;
     }
@@ -15,31 +21,48 @@
         padding-bottom: 5px;
     }   
     
-    section > .sobre-descricao {
+    .sobre-descricao {
         width: 430px;
     }
+
+    .box-skill-level {
+        width: 440px;
+    }
+
+    .img-skill {
+        width: 65px;
+    }
+
+/****************** RODAPÉ *********************/
 
     .contatos-logos {
         width: 315px;
     }
 
-    .icones-logo{
+    .icones-logo {
         width: 60px;
     }
 }
 
 @media  screen and (min-width:768px) and (max-width:991px) {
 
+/********************* MENU *********************/
+    
     #menuHamb, #menu {
         display: none;
     }
+
+/************ REDES SOCIAIS RIGHT ***************/
 
     .conteiner-big-box {
         display: block;
     }
 
+/********************* MAIN ***********************/
+
     .section_iverson {
         margin-top: 0px;
+        width: 450px;
     }
 
     .img_foto_iverson {
@@ -55,9 +78,19 @@
         padding-bottom: 5px;
     }   
     
-    section > .sobre-descricao {
+    .sobre-descricao {
         width: 430px;
     }
+
+    .box-skill-level {
+        width: 430px;
+    }
+
+    .img-skill {
+        width: 65px;
+    }
+
+/*****************  RODAPÉ  ********************/
 
     .contatos-logos {
         display: none;
@@ -70,6 +103,9 @@
 }
 
 @media  screen and (min-width:992px) and (max-width:1199px) {
+
+/********************* MENU *********************/
+    
     #menuHamb, #menu {
         display: none;
     }
@@ -84,12 +120,20 @@
         justify-content: center;
     }
 
+/**************** TITULO PRINCIPAL ***************/
+
+    .titulo-nome {
+        display: block;
+    }
+
+/********************* MAIN *********************/
+
     .section_iverson {
         margin-top: 0px;
         width: 250px;
     }
 
-    .section_iverson > h1 {
+    .section_iverson h1, .section_iverson p {
         display: none;
     }
 
@@ -103,7 +147,7 @@
         justify-content: center;
         align-items: center;
         width: 600px;
-        height: 720px;
+        height: 740px;
     }
 
     .img_logo_tags {
@@ -115,10 +159,28 @@
         padding-bottom: 5px;
     }   
     
+    #tag-sobre {
+        display: none;
+    }
+
+    #tag-sobre2{
+        display: block;
+    }
+
     .sobre-descricao {
         display: block;
         width: 530px;
     }
+
+    .box-skill-level {     
+        width: 520px;
+    }
+
+    .img-skill {
+        width: 75px;
+    }
+
+/********************* RODAPÉ *********************/
 
     .contatos-logos {
         display: none;
