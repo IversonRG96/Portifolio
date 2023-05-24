@@ -30,8 +30,26 @@
     }
 
     .img-skill {
-        width: 65px;
+        width: 60px;
     }
+
+/**************** COLUNA LEFT *******************/
+
+    .big-box-diretorio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 440px;
+    }
+
+    .box-diretorio-left, .box-diretorio-right {
+        margin-right: 5px;
+    }
+
+    .diretorio-icone p {
+        width: 155px;
+    }
+
 
 /****************** RODAPÉ *********************/
 
@@ -87,7 +105,24 @@
     }
 
     .img-skill {
-        width: 65px;
+        width: 60px;
+    }
+
+/**************** COLUNA LEFT *******************/
+
+    .big-box-diretorio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 440px;
+    }
+
+    .box-diretorio-left, .box-diretorio-right {
+        margin-right: 5px;
+    }
+
+    .diretorio-icone p {
+        width: 155px;
     }
 
 /*****************  RODAPÉ  ********************/
@@ -118,18 +153,21 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: flex-start;
     }
 
 /**************** TITULO PRINCIPAL ***************/
 
     .titulo-nome {
         display: block;
+        margin-bottom: 20px;
     }
 
 /********************* MAIN *********************/
 
     .section_iverson {
-        margin-top: 0px;
+        margin-top: 3px;
+        margin-right: 35px;
         width: 250px;
     }
 
@@ -138,16 +176,14 @@
     }
 
     .img_foto_iverson {
-        margin-right: 25px;
         width: 250px;
     }
 
     .box-botoes-tags {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         width: 600px;
-        height: 740px;
     }
 
     .img_logo_tags {
@@ -172,12 +208,109 @@
         width: 530px;
     }
 
-    .box-skill-level {     
-        width: 520px;
+    #tag-skill {
+        display: none;
+    }    
+    
+    .box-skill-level {  
+        display: none;   
+    }
+
+    .big-box-diretorio {
+        display: flex;
+        flex-direction: column;
+        width: 525px;
+    }
+
+    .box-diretorio-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .box-diretorio-right {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .diretorio-icone {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .diretorio-icone p {
+        width: 170px;
+    }
+
+    .img-diretorio-icone {
+        width: 140px;
+        border-radius: 25px;
+    }
+
+
+
+    .diretorio-descricao {
+        display: block;
+    }
+
+/**************** COLUNA LEFT *******************/
+
+    .box-skill-left, .box-certificado-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 45px;
+    }
+
+    .img-skill-titulo, .img-certificado-titulo {
+        margin-bottom: 5px;
+        width: 255px;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 240px;
     }
 
     .img-skill {
-        width: 75px;
+        margin: 2px;
+        width: 40px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.193);
+    }
+
+    .lista-certificados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px 0px;
+        width: 240px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+        border-radius: 5px;
+    }
+
+    .img-certificado-icone {
+        margin: 5px;
+        width: 65px;
+        border-radius: 13px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.193);
+    }
+
+    .certificado div p {
+        display: block;
+        width: 165px;
+        line-height: 20px;
+        
     }
 
 /********************* RODAPÉ *********************/

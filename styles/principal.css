@@ -16,6 +16,8 @@ p , h1 , h2 {
     text-align: center;
 }
 
+
+
 body {
     min-width: 300px;
     background: rgba(0, 0, 0, 0.1);
@@ -57,10 +59,6 @@ header {
 
 .nav_opcoes a:hover {
     color: rgb(0, 106, 255);
-}
-
-.menu_grande {
-    display: none;
 }
 
 /************* REDES SOCIAIS RIGHT ***************/
@@ -133,6 +131,10 @@ header {
     margin-top: 8px;
 }
 
+.box-skill-left {
+    display: none;
+}
+
 .section-botoes {
     margin-bottom: 10px;
     display: flex;
@@ -186,6 +188,44 @@ header {
     margin-bottom: 5px;
     border-radius: 5px;
     width: 40px;
+}
+
+/**************** COLUNA LEFT *******************/
+
+.big-box-diretorio {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.box-diretorio-left, .box-diretorio-right {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+    border-radius: 5px;
+}
+
+.diretorio-icone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.diretorio-icone p {
+    width: 200px;
+}
+
+.img-diretorio-icone {
+    margin: 5px;
+    width: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+}
+
+.diretorio-descricao {
+    display: none;
+}
+
+.box-certificado-left {
+    display: none;
 }
 
 /****************** RODAPÉ *********************/
