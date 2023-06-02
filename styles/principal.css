@@ -190,12 +190,10 @@ header {
     width: 40px;
 }
 
-/**************** COLUNA LEFT *******************/
-
 .big-box-diretorio {
     display: flex;
     flex-direction: column;
-    width: 260px;
+    width: 275px;
 }
 
 .box-diretorio-left, .box-diretorio-right {
@@ -207,6 +205,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    margin: 5px;
 }
 
 .diretorio-icone p {
@@ -214,17 +214,12 @@ header {
 }
 
 .img-diretorio-icone {
-    margin: 5px;
     width: 50px;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
 }
 
-.diretorio-descricao {
-    display: none;
-}
-
-.box-certificado-left {
+.diretorio-descricao, .box-coluna {
     display: none;
 }
 

@@ -33,20 +33,15 @@
         width: 60px;
     }
 
-/**************** COLUNA LEFT *******************/
-
     .big-box-diretorio {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 440px;
-    }
-
-    .box-diretorio-left, .box-diretorio-right {
-        margin-right: 5px;
+        width: 450px;
     }
 
     .diretorio-icone p {
+        padding: 5px;
         width: 155px;
     }
 
@@ -108,8 +103,6 @@
         width: 60px;
     }
 
-/**************** COLUNA LEFT *******************/
-
     .big-box-diretorio {
         display: flex;
         flex-direction: row;
@@ -117,11 +110,15 @@
         width: 440px;
     }
 
-    .box-diretorio-left, .box-diretorio-right {
-        margin-right: 5px;
+    .big-box-diretorio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 450px;
     }
 
     .diretorio-icone p {
+        padding: 5px;
         width: 155px;
     }
 
@@ -167,7 +164,6 @@
 
     .section_iverson {
         margin-top: 3px;
-        margin-right: 35px;
         width: 250px;
     }
 
@@ -183,11 +179,12 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        width: 600px;
+        width: 680px;
     }
 
     .img_logo_tags {
-        width: 550px;
+        width: 580px;
+        height: 75px;
     }
 
     .img_logo_tags:hover {
@@ -205,7 +202,7 @@
 
     .sobre-descricao {
         display: block;
-        width: 530px;
+        width: 550px;
     }
 
     #tag-skill {
@@ -219,7 +216,7 @@
     .big-box-diretorio {
         display: flex;
         flex-direction: column;
-        width: 525px;
+        width: 550px;
     }
 
     .box-diretorio-left {
@@ -234,37 +231,45 @@
         align-items: center;
     }
 
+    .box-diretorio-left, .box-diretorio-right {
+        margin: 5px 0px;
+    }
+
     .diretorio-icone {
         display: flex;
         flex-direction: column;
-        margin: 5px;
+        margin: 10px 5px;
     }
 
-    .diretorio-icone p {
+    .diretorio-icone p { 
         width: 170px;
     }
 
     .img-diretorio-icone {
-        width: 140px;
+        margin-bottom: 5px;
+        width: 125px;
         border-radius: 25px;
     }
-
-
 
     .diretorio-descricao {
         display: block;
     }
 
+    .diretorio-descricao p {
+        margin: 5px;
+        padding: 0px 5px;
+    }
+
 /**************** COLUNA LEFT *******************/
 
-    .box-skill-left, .box-certificado-left {
+    .box-coluna {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 45px;
     }
 
-    .img-skill-titulo, .img-certificado-titulo {
+    .img-coluna-titulo {
         margin-bottom: 5px;
         width: 255px;
     }
@@ -283,7 +288,7 @@
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.193);
     }
 
-    .lista-certificados {
+    .lista-certificados, .box-coluna {
         display: flex;
         flex-direction: column;
     }
