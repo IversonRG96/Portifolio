@@ -10,6 +10,7 @@
     --cor01:;
     --cor02:;
     --cor03:;
+    --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.182);
 }
 
 * {
@@ -18,15 +19,13 @@
     transition: all 0.8s;
 }
 
-
-
 a {
     text-decoration: none;
     color: black;
 }
 
 p , h1 , h2 {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.186);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -96,14 +95,14 @@ header {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 140px;
+    margin-top: 135px;
 }
 
 .icones-redes {
     margin-bottom: 5px;
     width: 50px;
     border-radius: 50%;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.315);
+    box-shadow: var(--box-shadow);
     transition: all 0.15s;
     box-sizing: border-box;
 }
@@ -123,7 +122,8 @@ header {
 
 .titulo-nome h1 {
     font-family: var(--fonte_titulo) ;
-    font-size: 4.5em;
+    font-size: 4.2em;
+    letter-spacing: 5px;
 }
 
 .titulo-nome p {
@@ -151,7 +151,7 @@ header {
 .img_foto_iverson {
     width: 175px;
     border-radius: 5px;
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.285);
+    box-shadow: var(--box-shadow);
 }
 
 .section_iverson > h1 {
@@ -190,7 +190,7 @@ header {
     padding: 5px 0px 15px 0px;
     width: 270px;
     border-radius: 3px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+    box-shadow: var(--box-shadow);
     display: none;
 }
 
@@ -224,7 +224,7 @@ header {
 }
 
 .box-diretorio-left, .box-diretorio-right {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+    box-shadow: var(--box-shadow);
     border-radius: 5px;
 }
 
@@ -243,7 +243,7 @@ header {
 .img-diretorio-icone {
     width: 50px;
     border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.089);
+    box-shadow: var(--box-shadow);
 }
 
 .diretorio-descricao, .box-coluna {
