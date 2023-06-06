@@ -162,7 +162,7 @@
 /********************* MAIN *********************/
 
     .section_iverson {
-        margin-top: 3px;
+        margin-top: 10px;
         width: 250px;
     }
 
@@ -183,7 +183,7 @@
 
     .img_logo_tags {
         width: 580px;
-        height: 75px;
+        height: 80px;
     }
 
     .img_logo_tags:hover {
@@ -231,7 +231,9 @@
     }
 
     .box-diretorio-left, .box-diretorio-right {
-        margin: 5px 0px;
+        margin-bottom: 15px;
+        height: 210px;
+        padding: 0px 25px;
     }
 
     .diretorio-icone {
@@ -245,9 +247,13 @@
     }
 
     .img-diretorio-icone {
-        margin-bottom: 5px;
-        width: 125px;
-        border-radius: 25px;
+        margin-bottom: 10px;
+        width: 100px;
+        border-radius: 15px;
+    }
+
+    .diretorio-icone p {
+        font-size: 0.9em;
     }
 
     .diretorio-descricao {
