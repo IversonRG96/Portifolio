@@ -157,7 +157,6 @@
 
     .titulo-nome {
         display: block;
-        margin-bottom: 20px;
     }
 
 /********************* MAIN *********************/
@@ -300,6 +299,7 @@
         align-items: center;
         margin: 5px 0px;
         width: 240px;
+        background-color: var(--background_white);
         box-shadow: var(--box-shadow);
         border-radius: 5px;
     }

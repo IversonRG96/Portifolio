@@ -9,7 +9,8 @@
     --fonte_texto: 'Tsukimi Rounded', sans-serif ;
     --cor01:;
     --cor02:;
-    --cor03:;
+    --plano_de_fundo: linear-gradient(to right, red, orange, black);
+    --background_white: white;
     --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.182);
 }
 
@@ -36,7 +37,7 @@ p {
 
 body {
     min-width: 300px;
-    background: rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, red, orange, black);
     background-size: cover;
 }
 
@@ -84,7 +85,6 @@ header {
 }
 
 .big-box-redes {
-    margin-top: 20px;
     margin-right: 15px;
     position: relative;
     display: flex;
@@ -95,7 +95,7 @@ header {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 135px;
+    margin-top: 175px;
 }
 
 .icones-redes {
@@ -117,7 +117,10 @@ header {
 
 .titulo-nome {
     display: none;
+    margin: 10px 0px;
+    padding: 20px 0px;
     text-align: center;
+    background-color: var(--background_white);
 }
 
 .titulo-nome h1 {
@@ -190,6 +193,7 @@ header {
     padding: 5px 0px 15px 0px;
     width: 270px;
     border-radius: 3px;
+    background-color: var(--background_white);
     box-shadow: var(--box-shadow);
     display: none;
 }
@@ -226,6 +230,7 @@ header {
 .box-diretorio-left, .box-diretorio-right {
     box-shadow: var(--box-shadow);
     border-radius: 5px;
+    background-color: var(--background_white);
 }
 
 .diretorio-icone {
