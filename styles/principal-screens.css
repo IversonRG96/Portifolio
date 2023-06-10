@@ -12,8 +12,13 @@
         width: 250px;
     }
 
+    .section_iverson h1 {
+        font-size: 4.7em;
+    }
+
     .img_logo_tags {
         width: 460px;
+        height: 85px;
     }
 
     .img_logo_tags:hover{
@@ -33,11 +38,36 @@
         width: 60px;
     }
 
+    .box-certificado, .box-outrosprojetos {
+        width: 440px;
+    }
+
+    .certificado, .outrosprojetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .certificado p , .outrosprojetos p{
+        width: 380px;
+    }
+
     .big-box-diretorio {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         width: 450px;
+    }
+
+    .box-diretorio-left, .box-diretorio-right {
+        margin: 0px 0px 5px 0px;
+        width: 220px;
+    }
+
+    .box-diretorio-left {
+        margin-right: 5px;
     }
 
     .diretorio-icone p {
@@ -71,10 +101,13 @@
         display: block;
     }
 
-/********************* MAIN ***********************/
+    .box-redes {
+        margin-top: 25px;
+    }
+
+    /********************** MAIN ********************/
 
     .section_iverson {
-        margin-top: 0px;
         width: 450px;
     }
 
@@ -82,39 +115,62 @@
         width: 250px;
     }
 
+    .section_iverson h1 {
+        font-size: 4.7em;
+    }
+
     .img_logo_tags {
         width: 460px;
+        height: 85px;
     }
 
     .img_logo_tags:hover{
         width: 449px;
         padding-bottom: 5px;
     }   
-    
+
     .sobre-descricao {
         width: 430px;
     }
 
     .box-skill-level {
-        width: 430px;
+        width: 440px;
     }
 
     .img-skill {
         width: 60px;
     }
 
-    .big-box-diretorio {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    .box-certificado, .box-outrosprojetos {
         width: 440px;
+    }
+
+    .certificado, .outrosprojetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .certificado p , .outrosprojetos p{
+        width: 380px;
     }
 
     .big-box-diretorio {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         width: 450px;
+    }
+
+    .box-diretorio-left, .box-diretorio-right {
+        margin: 0px 0px 5px 0px;
+        width: 220px;
+    }
+
+    .box-diretorio-left {
+        margin-right: 5px;
     }
 
     .diretorio-icone p {
@@ -122,16 +178,16 @@
         width: 155px;
     }
 
-/*****************  RODAPÉ  ********************/
+
+    /****************** RODAPÉ *********************/
 
     .contatos-logos {
-        display: none;
+        width: 315px;
     }
 
-    footer {
-        border-radius: 5px 5px 0px 0px;
+    .icones-logo {
+        width: 60px;
     }
-    
 }
 
 @media  screen and (min-width:992px) and (max-width:1199px) {
@@ -157,6 +213,8 @@
 
     .titulo-nome {
         display: block;
+        margin: 20px 10px;
+        border-radius: 7px;
     }
 
 /********************* MAIN *********************/
@@ -172,6 +230,7 @@
 
     .img_foto_iverson {
         width: 250px;
+        border-radius: 7px;
     }
 
     .box-botoes-tags {
@@ -191,7 +250,7 @@
         padding-bottom: 5px;
     }   
     
-    #tag-sobre {
+    #tag-sobre, #tag-certificado, .box-certificado {
         display: none;
     }
 
@@ -236,6 +295,14 @@
         padding: 0px 25px;
     }
 
+    #tag-dir-peq, #tag-outrosprojetos, .box-outrosprojetos {
+        display: none;
+    }
+
+    #tag-diretorio {
+        display: block;
+    }
+
     .diretorio-icone {
         display: flex;
         flex-direction: column;
@@ -271,7 +338,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 45px;
+        margin-bottom: 45px;
     }
 
     .img-coluna-titulo {
@@ -326,15 +393,215 @@
 
 /********************* RODAPÉ *********************/
 
-    .contatos-logos {
-        display: none;
-    }
-
     footer {
         border-radius: 5px 5px 0px 0px;
     }
 }
 
 @media  screen and (min-width:1200px) {
+
+/********************* MENU *********************/
     
+#menuHamb, #menu {
+    display: none;
+}
+
+.conteiner-big-box {
+    display: block;
+}
+
+.conteiner_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/**************** TITULO PRINCIPAL ***************/
+
+.titulo-nome {
+    display: block;
+    margin: 20px 10px;
+    border-radius: 7px;
+}
+
+/********************* MAIN *********************/
+
+.section_iverson {
+    margin-top: 10px;
+    width: 250px;
+}
+
+.section_iverson h1, .section_iverson p {
+    display: none;
+}
+
+.img_foto_iverson {
+    width: 250px;
+    border-radius: 7px;
+}
+
+.box-botoes-tags {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 680px;
+}
+
+.img_logo_tags {
+    width: 580px;
+    height: 80px;
+}
+
+.img_logo_tags:hover {
+    width: 550px;
+    padding-bottom: 5px;
+}   
+
+#tag-sobre, #tag-certificado, .box-certificado {
+    display: none;
+}
+
+#tag-sobre2{
+    display: block;
+}
+
+.sobre-descricao {
+    display: block;
+    width: 550px;
+}
+
+#tag-skill {
+    display: none;
+}    
+
+.box-skill-level {  
+    display: none;   
+}
+
+.big-box-diretorio {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.box-diretorio-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-diretorio-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box-diretorio-left, .box-diretorio-right {
+    margin-bottom: 15px;
+    height: 210px;
+    padding: 0px 25px;
+}
+
+#tag-dir-peq, #tag-outrosprojetos, .box-outrosprojetos {
+        display: none;
+    }
+
+    #tag-diretorio {
+        display: block;
+    }
+
+    .diretorio-icone {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5px;
+    }
+
+    .diretorio-icone p { 
+        width: 170px;
+    }
+
+    .img-diretorio-icone {
+        margin-bottom: 10px;
+        width: 100px;
+        border-radius: 15px;
+    }
+
+    .diretorio-icone p {
+        font-size: 0.9em;
+    }
+
+    .diretorio-descricao {
+        display: block;
+    }
+
+    .diretorio-descricao p {
+        margin: 5px;
+        padding: 0px 5px;
+    }
+
+    /**************** COLUNA LEFT *******************/
+
+    .box-coluna {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 45px;
+    }
+
+    .img-coluna-titulo {
+        margin-bottom: 5px;
+        width: 255px;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 240px;
+    }
+
+    .img-skill {
+        margin: 2px;
+        width: 40px;
+        border-radius: 8px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .lista-certificados, .box-coluna {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px 0px;
+        width: 240px;
+        background-color: var(--background_white);
+        box-shadow: var(--box-shadow);
+        border-radius: 5px;
+    }
+
+    .img-certificado-icone {
+        margin: 5px;
+        width: 65px;
+        border-radius: 13px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .certificado div p {
+        display: block;
+        width: 165px;
+        line-height: 20px;
+        
+    }
+
+    /********************* RODAPÉ *********************/
+
+    footer {
+        border-radius: 5px 5px 0px 0px;
+    }
 }
