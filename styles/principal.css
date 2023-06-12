@@ -230,6 +230,10 @@ header {
     display: none;
 }
 
+#tag-certificado, #tag-dir-peq, #tag-outrosprojetos {
+    margin-bottom: 3px;
+}
+
 .big-box-diretorio, .box-certificado, .box-outrosprojetos {
     display: flex;
     flex-direction: column;
@@ -238,7 +242,7 @@ header {
 }
 
 .box-diretorio-left, .box-diretorio-right, .certificado, .outrosprojetos {
-    margin-bottom: 7px;
+    margin-bottom: 3px;
     box-shadow: var(--box-shadow);
     border-radius: 5px;
     background-color: var(--background_white);
@@ -253,7 +257,7 @@ header {
 }
 
 .certificado, .outrosprojetos {
-    margin: 3px 0px;
+    margin: 0px 0px 3px 0px;
     padding: 5px;
 }
 
@@ -295,7 +299,7 @@ header {
 
 .icones-logo {
     width: 50px;
-    border-radius: 50%;
+    border-radius: 7px;
     border: 0px solid rgb(0, 0, 0);
     box-sizing: border-box;
     transition: all 0.1s;
@@ -307,12 +311,12 @@ header {
 }
 
 footer {
-    margin-top: -1px;
-    padding: 10px 5px;
-    font-size: 0.75em;
-    text-align: center;
+    margin-top: -1px; 
     margin: 0px 4px;
-    color:rgba(255, 255, 255, 0.676);
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 0.7em;
+    color:rgb(173, 168, 168);
     background-color: rgb(0, 0, 0);
     box-shadow: var(--box-shadow);
 }

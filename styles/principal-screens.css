@@ -18,7 +18,7 @@
 
     .img_logo_tags {
         width: 460px;
-        height: 85px;
+        height: 80px;
     }
 
     .img_logo_tags:hover{
@@ -36,6 +36,7 @@
 
     .img-skill {
         width: 60px;
+        border-radius: 10px;
     }
 
     .box-certificado, .box-outrosprojetos {
@@ -393,9 +394,7 @@
 
 /********************* RODAPÉ *********************/
 
-    footer {
-        border-radius: 5px 5px 0px 0px;
-    }
+   
 }
 
 @media  screen and (min-width:1200px) {
@@ -601,7 +600,5 @@
 
     /********************* RODAPÉ *********************/
 
-    footer {
-        border-radius: 5px 5px 0px 0px;
-    }
+
 }
