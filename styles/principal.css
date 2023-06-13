@@ -82,7 +82,7 @@ header {
 }
 
 .big-box-redes {
-    margin-right: 15px;
+    margin-right: 5px;
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -102,12 +102,6 @@ header {
     box-shadow: var(--box-shadow);
     transition: all 0.15s;
     box-sizing: border-box;
-}
-
-.icones-redes:hover {
-    border: 2px solid rgba(255, 255, 255, 0);
-    transition: all 0.15s;
-    
 }
 
 /**************** TITULO PRINCIPAL ***************/
@@ -186,12 +180,6 @@ header {
 .img_logo_tags {
     padding: 3px;
     width: 285px;
-    transition: all 0.2s;
-}
-
-.img_logo_tags:hover {
-    padding-bottom: 4px ;
-    width: 280px;
     transition: all 0.2s;
 }
 

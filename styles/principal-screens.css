@@ -20,11 +20,6 @@
         width: 460px;
         height: 80px;
     }
-
-    .img_logo_tags:hover{
-        width: 449px;
-        padding-bottom: 5px;
-    }   
     
     .sobre-descricao {
         width: 430px;
@@ -124,11 +119,6 @@
         width: 460px;
         height: 85px;
     }
-
-    .img_logo_tags:hover{
-        width: 449px;
-        padding-bottom: 5px;
-    }   
 
     .sobre-descricao {
         width: 430px;
@@ -253,11 +243,6 @@
         width: 580px;
         height: 80px;
     }
-
-    .img_logo_tags:hover {
-        width: 550px;
-        padding-bottom: 5px;
-    }   
     
     #tag-sobre, #tag-certificado, .box-certificado {
         display: none;
@@ -438,8 +423,7 @@
 
     .titulo-nome {
         display: block;
-        margin: 20px auto;
-        max-width: 1200px;
+        margin: 20px 10px;
         border-radius: 7px;
     }
 
@@ -478,12 +462,7 @@
     .img_logo_tags {
         width: 690px;
         height: 90px;
-    }
-
-    .img_logo_tags:hover {
-        width: 550px;
-        padding-bottom: 5px;
-    }   
+    } 
 
     #tag-sobre, #tag-certificado, .box-certificado {
         display: none;
