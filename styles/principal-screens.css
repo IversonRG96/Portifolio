@@ -80,7 +80,7 @@
 /****************** RODAPÉ *********************/
 
     .contatos-logos {
-        width: 315px;
+        width: 380px;
     }
 
     .icones-logo {
@@ -183,7 +183,7 @@
     /****************** RODAPÉ *********************/
 
     .contatos-logos {
-        width: 315px;
+        width: 380px;
     }
 
     .icones-logo {
@@ -202,6 +202,10 @@
     .conteiner-big-box {
         display: block;
     }
+    
+    .box-redes {
+        margin-top: 210px;
+    }
 
     .conteiner_main {
         display: flex;
@@ -216,6 +220,10 @@
         display: block;
         margin: 20px 10px;
         border-radius: 7px;
+    }
+
+    .titulo-nome h1 {
+        font-size: 4.7em;
     }
 
 /********************* MAIN *********************/
@@ -343,7 +351,6 @@
     }
 
     .img-coluna-titulo {
-        margin-bottom: 5px;
         width: 255px;
     }
 
@@ -371,8 +378,8 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin: 5px 0px;
-        width: 240px;
+        margin: 1px 0px 4px 0px;
+        width: 230px;
         background-color: var(--background_white);
         box-shadow: var(--box-shadow);
         border-radius: 5px;
@@ -394,6 +401,13 @@
 
 /********************* RODAPÉ *********************/
 
+    .contatos-logos {
+        width: 380px;
+    }
+
+    .icones-logo {
+        width: 60px;
+    }
    
 }
 
@@ -401,108 +415,122 @@
 
 /********************* MENU *********************/
     
-#menuHamb, #menu {
-    display: none;
-}
+    #menuHamb, #menu {
+        display: none;
+    }
 
-.conteiner-big-box {
-    display: block;
-}
+    .conteiner-big-box {
+        display: block;
+    }
 
-.conteiner_main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
+    .box-redes {
+        margin-top: 230px;
+    }
 
-/**************** TITULO PRINCIPAL ***************/
+    .conteiner_main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
-.titulo-nome {
-    display: block;
-    margin: 20px 10px;
-    border-radius: 7px;
-}
+    /**************** TITULO PRINCIPAL ***************/
 
-/********************* MAIN *********************/
+    .titulo-nome {
+        display: block;
+        margin: 20px auto;
+        max-width: 1200px;
+        border-radius: 7px;
+    }
 
-.section_iverson {
-    margin-top: 10px;
-    width: 250px;
-}
+    .titulo-nome h1 {
+        font-size: 5.5em;
+    }
 
-.section_iverson h1, .section_iverson p {
-    display: none;
-}
+    .titulo-nome p {
+        font-size: 1.2em;
+    }
 
-.img_foto_iverson {
-    width: 250px;
-    border-radius: 7px;
-}
+    /********************* MAIN *********************/
 
-.box-botoes-tags {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 680px;
-}
+    .section_iverson {
+        margin-top: 10px;
+        margin-right: 40px;
+        width: 300px;
+    }
 
-.img_logo_tags {
-    width: 580px;
-    height: 80px;
-}
+    .section_iverson h1, .section_iverson p {
+        display: none;
+    }
 
-.img_logo_tags:hover {
-    width: 550px;
-    padding-bottom: 5px;
-}   
+    .img_foto_iverson {
+        width: 280px;
+        border-radius: 7px;
+    }
 
-#tag-sobre, #tag-certificado, .box-certificado {
-    display: none;
-}
+    .box-botoes-tags {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 680px;
+    }
 
-#tag-sobre2{
-    display: block;
-}
+    .img_logo_tags {
+        width: 690px;
+        height: 90px;
+    }
 
-.sobre-descricao {
-    display: block;
-    width: 550px;
-}
+    .img_logo_tags:hover {
+        width: 550px;
+        padding-bottom: 5px;
+    }   
 
-#tag-skill {
-    display: none;
-}    
+    #tag-sobre, #tag-certificado, .box-certificado {
+        display: none;
+    }
 
-.box-skill-level {  
-    display: none;   
-}
+    #tag-sobre2{
+        display: block;
+    }
 
-.big-box-diretorio {
-    display: flex;
-    flex-direction: column;
-    width: 550px;
-}
+    .sobre-descricao {
+        display: block;
+        width: 655px;
+    }
 
-.box-diretorio-left {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+    #tag-skill {
+        display: none;
+    }    
 
-.box-diretorio-right {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
+    .box-skill-level {  
+        display: none;   
+    }
 
-.box-diretorio-left, .box-diretorio-right {
-    margin-bottom: 15px;
-    height: 210px;
-    padding: 0px 25px;
-}
+    .big-box-diretorio {
+        display: flex;
+        flex-direction: column;
+        width: 655px;
+    }
 
-#tag-dir-peq, #tag-outrosprojetos, .box-outrosprojetos {
+    .box-diretorio-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .box-diretorio-right {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .box-diretorio-left, .box-diretorio-right {
+        margin-bottom: 15px;
+        height: 210px;
+        padding: 0px 25px;
+    }
+
+    #tag-dir-peq, #tag-outrosprojetos, .box-outrosprojetos {
         display: none;
     }
 
@@ -549,8 +577,7 @@
     }
 
     .img-coluna-titulo {
-        margin-bottom: 5px;
-        width: 255px;
+        width: 290px;
     }
 
     .skills {
@@ -577,8 +604,8 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin: 5px 0px;
-        width: 240px;
+        margin: 1px 0px 4px 0px;
+        width: 260px;
         background-color: var(--background_white);
         box-shadow: var(--box-shadow);
         border-radius: 5px;
@@ -599,6 +626,14 @@
     }
 
     /********************* RODAPÉ *********************/
+
+    .contatos-logos {
+        width: 380px;
+    }
+
+    .icones-logo {
+        width: 60px;
+    }
 
 
 }

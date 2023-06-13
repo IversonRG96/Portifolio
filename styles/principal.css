@@ -14,7 +14,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 
 a {
@@ -124,12 +124,16 @@ header {
     font-family: var(--fonte_titulo);
     font-size: 4.2em;
     letter-spacing: 5px;
-    color: rgb(0, 76, 123);
+    color: #1F7FA0;
     
 }
 
 .titulo-nome p , .section_iverson > p {
     font-weight: 700;
+}
+
+.titulo-nome p {
+    color: #1f80a0a4;
 }
 
 /********************* MAIN *********************/
@@ -160,11 +164,12 @@ header {
     font-family: var(--fonte_titulo);
     font-size: 2.6em;
     letter-spacing: 4px;
-    color: rgb(0, 76, 123);
+    color: #1F7FA0;
 }
 
 .section_iverson > p {
     font-size: 0.9em;
+    color: #1f80a0a4;
 }
 
 .box-skill-left {
@@ -277,7 +282,6 @@ header {
 }
 
 
-
 /****************** RODAPÉ *********************/
 
 .box-contatos {
@@ -292,7 +296,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 250px;
+    width: 265px;
     padding: 15px 0px;
     
 }
@@ -313,7 +317,7 @@ header {
 footer {
     margin-top: -1px; 
     margin: 0px 4px;
-    padding: 10px 5px;
+    padding: 0px 10px 15px 10px;
     text-align: center;
     font-size: 0.7em;
     color:rgb(173, 168, 168);
