@@ -213,12 +213,14 @@ header {
 }
 
 .skill-level {
-    display:flex;
-    justify-content: space-around;
+    display:flex;    
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin: 5px 0px;
 }
 
 .img-skill {
+    margin-right: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
     width: 40px;

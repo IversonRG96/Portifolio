@@ -30,7 +30,8 @@
     }
 
     .img-skill {
-        width: 60px;
+        margin-right: 7.5px;
+        width: 55px;
         border-radius: 10px;
     }
 
@@ -43,6 +44,10 @@
         justify-content: center;
         align-items: center;
         margin: 0px 0px 5px 0px;
+    }
+
+    .img-diretorio-icone, .img-certificado, .img-outrosprojetos {
+        width: 65px;
     }
 
     .certificado p , .outrosprojetos p{
@@ -66,9 +71,13 @@
         margin-right: 5px;
     }
 
+    .diretorio-icone {
+        height: 75px;
+    }
+
     .diretorio-icone p {
         padding: 5px;
-        width: 155px;
+        width: 125px;
     }
 
 
@@ -129,7 +138,9 @@
     }
 
     .img-skill {
-        width: 60px;
+        margin-right: 8.1px;
+        width: 65px;
+        border-radius: 10px;
     }
 
     .box-certificado, .box-outrosprojetos {
@@ -164,9 +175,17 @@
         margin-right: 5px;
     }
 
+    .img-diretorio-icone, .img-certificado, .img-outrosprojetos {
+        width: 65px;
+    }
+
+    .diretorio-icone {
+        height: 75px;
+    }
+
     .diretorio-icone p {
         padding: 5px;
-        width: 155px;
+        width: 135px;
     }
 
 
@@ -203,6 +222,7 @@
         justify-content: center;
         align-items: flex-start;
     }
+
 
 /**************** TITULO PRINCIPAL ***************/
 
@@ -354,15 +374,15 @@
         box-shadow: var(--box-shadow);
     }
 
-    .lista-certificados, .box-coluna {
+    .lista-certificados, .box-coluna, .box-curriculo, .lista-projetos {
         display: flex;
         flex-direction: column;
     }
 
-    .certificado {
+    .certificado, .curriculo, .projeto {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin: 1px 0px 4px 0px;
         width: 230px;
@@ -371,18 +391,38 @@
         border-radius: 5px;
     }
 
-    .img-certificado-icone {
+    .curriculo, .projeto {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px 0px 4px 0px;
+        width: 240px;
+    }
+
+    .projeto {
+        height: 90px;
+    }
+
+    .img-certificado-icone, .img-perfil-curriculo, .img-projeto {
         margin: 5px;
         width: 65px;
-        border-radius: 13px;
+        border-radius: 10px;
         box-shadow: var(--box-shadow);
     }
 
-    .certificado div p {
+    .img-perfil-curriculo {
+        padding-top: 5px;      
+        box-shadow: none;
+    }
+
+    .certificado div p, .curriculo div p, .projeto div p {
         display: block;
         width: 165px;
         line-height: 20px;
         
+    }
+
+    .curriculo div p {
+        width: 135px;
     }
 
 /********************* RODAPÉ *********************/
@@ -451,6 +491,7 @@
     .img_foto_iverson {
         width: 280px;
         border-radius: 7px;
+        border: 2px solid rgba(255, 255, 255, 0.435);
     }
 
     .box-botoes-tags {
@@ -564,22 +605,22 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 240px;
+        width: 270px;
     }
 
     .img-skill {
         margin: 2px;
-        width: 40px;
+        width: 45px;
         border-radius: 8px;
         box-shadow: var(--box-shadow);
     }
 
-    .lista-certificados, .box-coluna {
+    .lista-certificados, .box-coluna, .box-curriculo, .lista-projetos {
         display: flex;
         flex-direction: column;
     }
 
-    .certificado {
+    .certificado, .curriculo, .projeto{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -591,18 +632,39 @@
         border-radius: 5px;
     }
 
-    .img-certificado-icone {
+    .curriculo, .projeto {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px 0px 4px 0px;
+        width: 270px;
+    }
+
+    .projeto {
+        height: 90px;
+    }
+
+    .img-certificado-icone, .img-perfil-curriculo, .img-projeto {
         margin: 5px;
-        width: 65px;
-        border-radius: 13px;
+        width: 70px;
+        border-radius: 11px;
         box-shadow: var(--box-shadow);
     }
 
-    .certificado div p {
+    .img-perfil-curriculo {
+        padding-top: 5px;    
+        width: 60px;  
+        box-shadow: none;
+    }
+
+    .certificado div p, .curriculo div p, .projeto div p {
         display: block;
         width: 165px;
         line-height: 20px;
         
+    }
+
+    .curriculo div p {
+        width: 135px;
     }
 
     /********************* RODAPÉ *********************/
