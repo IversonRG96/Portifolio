@@ -99,9 +99,14 @@ header {
     margin-bottom: 5px;
     width: 50px;
     border-radius: 50%;
+    background-color: black;
     box-shadow: var(--box-shadow);
-    transition: all 0.15s;
     box-sizing: border-box;
+}
+
+.icones-redes:hover {
+    border: 4px solid black;
+    transition: border 0.2s;
 }
 
 /**************** TITULO PRINCIPAL ***************/
@@ -138,7 +143,6 @@ header {
     align-items: center;
 }
 
-
 .section_iverson {
     margin: 15px 0px;
     display: flex;
@@ -151,6 +155,7 @@ header {
     margin-bottom: 10px;
     width: 175px;
     border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
     box-shadow: var(--box-shadow);
 }
 

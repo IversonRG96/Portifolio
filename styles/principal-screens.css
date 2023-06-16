@@ -230,6 +230,7 @@
     .img_foto_iverson {
         width: 250px;
         border-radius: 7px;
+        border: 2px solid rgba(255, 255, 255, 0.435);
     }
 
     .box-botoes-tags {
